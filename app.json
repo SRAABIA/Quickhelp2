@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "jobify",
-    "slug": "jobify",
+    "slug": "quickest",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -32,6 +32,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "35018573-91c1-40c5-9cd5-d4ae8e32052f"
+      }
+    },
+    "owner": "s_raabia"
   }
 }
